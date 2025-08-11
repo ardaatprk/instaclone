@@ -1,6 +1,6 @@
 # InstaClone (Bootstrap)
 
-- [Sayfaya Gitmek İçin Tıklayınız]()
+- [Sayfaya Gitmek İçin Tıklayınız](https://ardaatprk.github.io/instaclone/)
 
 Basit bir Instagram klonu. Bootstrap 5 ve Bootstrap Icons kullanır.
 
