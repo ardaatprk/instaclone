@@ -1,0 +1,89 @@
+/* Genel */
+body {
+  background-color: #fafafa;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Stories */
+.stories {
+  scrollbar-width: none;
+}
+.stories::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  width: 64px;
+  height: 64px;
+  padding: 2px;
+  border-radius: 50%;
+  background: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.story img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #eaeaea;
+}
+.card .card-header,
+.card .card-footer {
+  background-color: #ffffff;
+}
+
+/* Sidebar text size helpers */
+.x-small {
+  font-size: 0.75rem;
+}
+
+/* Post actions */
+.like-toggle,
+.bookmark-toggle {
+  transition: transform 0.1s ease-in-out;
+}
+.like-toggle:active,
+.bookmark-toggle:active {
+  transform: scale(0.9);
+}
+
+/* Comments */
+.comment-form .comment-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* CSS-only toggles */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-btn:active {
+  transform: scale(0.95);
+}
+.icon-btn .icon-fill {
+  display: none;
+}
+.action-like:checked + .icon-btn .icon-outline,
+.action-bookmark:checked + .icon-btn .icon-outline {
+  display: none;
+}
+.action-like:checked + .icon-btn .icon-fill,
+.action-bookmark:checked + .icon-btn .icon-fill {
+  display: inline;
+} 
