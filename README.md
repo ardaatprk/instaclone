@@ -24,7 +24,3 @@ Basit bir Instagram klonu. Bootstrap 5 ve Bootstrap Icons kullanır.
 
 - Bootstrap 5 (CSS)
 - Bootstrap Icons
-
-## Lisans
-
-MIT
